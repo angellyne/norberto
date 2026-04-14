@@ -1,0 +1,41 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>atividade 15 da lista 4</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+
+        <h3>insira o nome do aluno (a):</h3>
+        
+        <label>Nome:</label>
+        <input type="text" placeholder="insira o nome" name=" nome " id="nome"/>
+        <br/><br>
+
+        <h3>Insira sua nota aqui:</h3>
+        
+        <label>Nota 1º Trimestre:</label>
+        <input type="text" placeholder="Nota 1º Trimestre" name="primeira_nota " id="primeira_nota"/>
+        <br/><br>
+        
+        <label>Nota 2º Trimestre:</label>
+        <input type="text" placeholder="Nota 2º Trimestre" name="segunda_nota " id="segunda_nota"/>
+        <br/><br>
+        
+        <label>Nota 3º Trimestre:</label>
+        <input type="text" placeholder="Nota 3º Trimestre" name="terceira_nota " id="terceira_nota"/>
+        <br/><br>
+
+        <label > deseja continuar S/N</label>
+        
+         <input type="text" id="resposta">
+
+        <button type="button" id="btn_nota" onclick="nota()"> enviar </button>
+
+
+        <label for="media" id="media"></label><br/>
+        <script src="js/atvd15.js"></script>
+    </body>
+    </html>
